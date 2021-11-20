@@ -1,0 +1,46 @@
+<H1 class="text-center">Crear un cuenta</H1>
+<br>
+<div class="mb-3 ">
+
+    <input type="nombre " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Nombre ">
+
+</div>
+<div class="mb-3 ">
+
+    <input type="Apellido " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Apellido ">
+
+</div>
+
+<div class="mb-3 ">
+
+    <input type="email " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Usuario ">
+
+</div>
+<div class="mb-3 ">
+
+    <input type="password " class="form-control " id="exampleInputPassword1 " placeholder="Contraseña ">
+</div>
+<div class="mb-3 ">
+    <label style="margin-left: 20px;" class="form-check-label"><input class="form-check-input" type="checkbox">Acepto los términos de la licencia.</label>
+</div>
+
+
+
+<button type="submit " class="btn btn-primary ">Submit</button>
+<br>
+<br>
+<h6 class="text-center"> <a href="form2.html">¿Ya tienes una cuenta? Entre aquí.</a></h6>
+
+<script>
+    $(document).ready(function() {
+
+        $("#noticias a").click(function() {
+
+            var url = $(this).attr("href");
+
+            $("#noticias").load(url);
+
+            return false;
+        });
+    });
+</script>
